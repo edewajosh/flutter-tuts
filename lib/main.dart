@@ -22,12 +22,13 @@ class Home extends StatelessWidget {
         //   color: Colors.lightBlue,
         //   size: 50.0,
         // ),
-        child: RaisedButton.icon(
-            onPressed: (){},
-            icon: Icon(
-              Icons.mail
-            ),
-          label: Text('Mail me'),
+        child: IconButton(
+          onPressed: () {
+            print('You clicked me');
+          },
+          icon: Icon(
+            Icons.alternate_email
+          ),
           color: Colors.amber,
         )
       ),
