@@ -17,16 +17,7 @@ class Home extends StatelessWidget {
       ),
       body: Center(
         // Everything nested in a widget is a child property
-        child: Text(
-          'Hello Ninjas',
-          style: TextStyle(
-            fontSize: 20.0,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2.0,
-            color: Colors.grey[600],
-            fontFamily: 'Piazzolla',
-          ),
-        ),
+        child: Image.asset('assets/space-5.jpg')
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
