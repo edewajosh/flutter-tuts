@@ -17,7 +17,19 @@ class Home extends StatelessWidget {
       ),
       body: Center(
         // Everything nested in a widget is a child property
-        child: Image.asset('assets/space-5.jpg')
+        // child: Icon(
+        //   Icons.airport_shuttle,
+        //   color: Colors.lightBlue,
+        //   size: 50.0,
+        // ),
+        child: RaisedButton.icon(
+            onPressed: (){},
+            icon: Icon(
+              Icons.mail
+            ),
+          label: Text('Mail me'),
+          color: Colors.amber,
+        )
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
